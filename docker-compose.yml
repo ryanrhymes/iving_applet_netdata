@@ -13,3 +13,5 @@ services:
       - apparmor=unconfined
     cap_add:
       - SYS_PTRACE
+    deploy:
+      replicas: 5
